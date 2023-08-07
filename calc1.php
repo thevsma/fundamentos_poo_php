@@ -18,13 +18,13 @@
         <h1>Resultado</h1>
 
         <?php
-            require_once 'classes/soma.class.php';
+            require_once 'classes/calc.class.php';
 
-            $s = new Soma();
+            $s = new Calc();
             $s -> num1 = $_GET["num1"];
             $s -> num2 = $_GET["num2"];
 
-            echo "<p>$s</p>";
+            echo "<p>{$s -> num1} + {$s -> num2} = {$s -> soma()}</p>";
         ?>
     </main>
 </body>

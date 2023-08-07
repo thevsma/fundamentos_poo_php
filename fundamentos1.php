@@ -19,7 +19,7 @@
 
         <?php
             require_once 'classes/tarefa.class.php';
-            require_once 'classes/soma.class.php';
+            require_once 'classes/calc.class.php';
 
             $t1 = new Tarefa();
             $t1 -> desc = "Não é possível";
@@ -28,10 +28,10 @@
 
             echo "<p>$t1</p>";
 
-            $s1 = new Soma();
+            $s1 = new Calc();
             $s1 -> num1 = 100;
             $s1 -> num2 = 1000;
-            echo "<p>$s1</p>";
+            echo "<p>{$s1 -> num1} + {$s1 -> num2} = {$s1 -> soma()}</p>";
         ?>
     </main>
 
