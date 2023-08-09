@@ -7,4 +7,19 @@ class Calc{
     {
         return $this -> num1 + $this -> num2;
     }
+
+    public function sub()
+    {
+        return $this -> num1 - $this -> num2;
+    }
+
+    public function mult()
+    {
+        return $this -> num1 * $this -> num2;
+    }
+
+    public function div()
+    {
+        return $this -> num1 / $this -> num2;
+    }
 }
