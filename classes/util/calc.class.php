@@ -8,17 +8,17 @@ class Calc{
         return $x + $y;
     }
 
-    public function Sub($x, $y)
+    public static function Sub($x, $y)
     {
         return $x - $y;
     }
 
-    public function Mult($x, $y)
+    public static function Mult($x, $y)
     {
         return $x * $y;
     }
 
-    public function Div($x, $y)
+    public static function Div($x, $y)
     {
         return $x / $y;
     }

@@ -1,4 +1,7 @@
 <?php
+
+namespace br\edu\ifnmg\web;
+
 class Calc{
     public $num1;
     public $num2;
