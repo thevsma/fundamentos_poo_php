@@ -1,25 +1,25 @@
 <?php
+
+namespace br\edu\ifnmg\web\util;
+
 class Calc{
-    public $x;
-    public $y;
-
-    public function Soma()
+    public static function Soma($x, $y)
     {
-        return $this -> x + $this -> y;
+        return $x + $y;
     }
 
-    public function Sub()
+    public function Sub($x, $y)
     {
-        return $this -> x - $this -> y;
+        return $x - $y;
     }
 
-    public function Mult()
+    public function Mult($x, $y)
     {
-        return $this -> x * $this -> y;
+        return $x * $y;
     }
 
-    public function Div()
+    public function Div($x, $y)
     {
-        return $this -> x / $this -> y;
+        return $x / $y;
     }
 }
